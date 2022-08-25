@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  /* padding-top: 17px; */
+  width: 1342px;
+  height: 66px;
+  /* margin-top: 17px; */
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid red;
+  text-align: center;
+
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  /* justify-items: center; */
+}
+
+.box1 {
+  grid-column: span 4;
+  justify-self: start;
+}
+.box2 {
+  grid-column: span 1;
+}
+.box3 {
+  grid-column: span 1;
+}
+.box4 {
+  grid-column: span 1;
+}
+.box5 {
+  grid-column: span 1;
+}
+.box6 {
+  grid-column: span 1;
+}
+.box7 {
+  grid-column: span 4;
+
+  /* display: grid; */
+  /* align-self: center; */
+  justify-self: end;
+}
+
+.btn {
+  width: 121px;
+  height: 54px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffb742;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  transition-delay: 1s ;
+  cursor: pointer;
+}
+
+.btn:hover {
+background-color: #fff;
+}
