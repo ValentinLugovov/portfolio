@@ -1,0 +1,63 @@
+.skills {
+  margin: 135px auto;
+  width: 1339px;
+  height: 358.29px;
+  display: grid;
+  grid-template-areas:
+    "B B B B   B B B B   B B B B"
+    "C C C C   C C C C   C C C C"
+    "D D D D   D D A A   A A A A"
+    "D D D D   D D A A   A A A A";
+}
+
+.box {
+  grid-area: A;
+  width: 560px;
+  height: 176px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.one {
+  grid-area: B;
+
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffb742;
+  font: 600 15px "Poppins";
+  text-align: center;
+  text-transform: uppercase;
+  width: 98px;
+  height: 30px;
+  padding-top: 3px;
+}
+
+.miniBox {
+  margin: 5px;
+  width: 80px;
+  height: 80px;
+  background-color: #383e45;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.two {
+  grid-area: C;
+  font: 700 48px "Roboto";
+  color: white;
+  width: 518px;
+}
+
+.three {
+  grid-area: D;
+  width: 672px;
+  line-height: 2;
+  font: regular 16px "Poppins";
+  color: #d4d4d4;
+}
+
+.miniBox img {
+  width: 45px;
+}

@@ -1,0 +1,22 @@
+.projects {
+  margin: 137px auto;
+  width: 1234px;
+  height: 1037.5px;
+  border: 1px solid wheat;
+}
+
+.mouse-parallax {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.mouse-parallax-bg {
+  position: absolute;
+  background-image: url("https://uksim-oz.ru/wp-content/uploads/2017/10/1358528731_city_landscape_background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  height: 110%;
+  transition: all 0.1s ease;
+}
