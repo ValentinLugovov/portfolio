@@ -6,9 +6,13 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
+      <a href="#top" className="to-up">
+        {" "}
+      </a>
       <Navbar />
       <Hero />
       <AboutMe />
