@@ -2,21 +2,61 @@
   margin: 137px auto;
   width: 1234px;
   height: 1037.5px;
-  border: 1px solid wheat;
 }
 
-.mouse-parallax {
-  height: 500px;
-  position: relative;
-  overflow: hidden;
+.note {
+  margin: 470px auto;
+  margin-bottom: 0;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffb742;
+  font: 600 15px "Poppins";
+  text-align: center;
+  text-transform: uppercase;
+  width: 98px;
+  height: 30px;
+  padding-top: 3px;
 }
-.mouse-parallax-bg {
-  position: absolute;
-  background-image: url("https://uksim-oz.ru/wp-content/uploads/2017/10/1358528731_city_landscape_background.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 110%;
-  height: 110%;
-  transition: all 0.1s ease;
+
+.header {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font: 700 48px "Roboto";
+  color: white;
+  width: 518px;
+}
+
+.panel {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  text-align: center;
+  width: 652px;
+  height: 40px;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: middle;
+
+  margin-left: 66px;
+  font: 16px "Poppins";
+}
+
+.app {
+  margin: 0 auto;
+  color: white;
+}
+
+.active {
+  padding-top: 7px;
+  display: inline-block;
+  width: 61px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffb742;
+  color: black;
+  font: 16px "Poppins";
 }
