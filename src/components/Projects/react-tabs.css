@@ -1,0 +1,44 @@
+.react-tabs {
+  -webkit-tap-highlight-color: white;
+}
+
+.react-tabs__tab-list {
+  margin: 0 0 50px 350px;
+  padding: 10;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 16px 10px;
+  margin: 20px;
+  cursor: pointer;
+  color: white;
+  font: 16px "Poppins";
+}
+
+.react-tabs__tab--selected {
+  background: #ffb742;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  outline: none;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
