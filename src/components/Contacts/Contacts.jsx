@@ -25,8 +25,8 @@ const Contacts = (props) => {
             <a className={s.links} href="https://www.linkedin.com/in/valentin-lugovov/">Linked In</a><br/><br/>
             <a className={s.links} href="https://www.telegram.me/valentin_lugovov/">Telegram</a><br/><br/>
             <a className={s.links} href="https://github.com/ValentinLugovov">Git Hub</a><br/><br/>
-            <a className={s.links} href="">Mobile</a><br/><br/>
-            <a className={s.links} href="">E-Mail</a>
+            <a className={s.links} href="#s">Mobile</a><br/><br/>
+            <a className={s.links} href="#s">E-Mail</a>
           </div>
         </div>
         <div className={s.box4}></div>
