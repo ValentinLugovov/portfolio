@@ -29,9 +29,8 @@
   font: 600 16px "Work Sans";
 }
 
-.links {
+.link {
   margin-top: 25px;
-
   color: #7b7b7b;
   font: 500 18px "Work Sans";
 }
@@ -43,6 +42,10 @@
   font: 600 22px "Work Sans";
 }
 
-p {
+.links {
+  font: 600 16px "Work Sans";
+  letter-spacing: 1px;
+  color: #7b7b7b;
+  text-decoration: none;
   padding-top: 10px;
 }
