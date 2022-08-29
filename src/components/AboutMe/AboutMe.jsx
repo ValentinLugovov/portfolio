@@ -6,13 +6,13 @@ import btn from "../Navbar/navbar.module.css";
 const AboutMe = (props) => {
   return (
     <div id="about" className={s.aboutMe}>
-      <div>
+      <div className={s.photo}>
         <img src={photo} alt="UserPhoto"></img>
       </div>
       <div>
-        <div className={s.one}>Who I am</div>
-        <div className={s.two}>About Me</div>
-        <div className={s.three}>
+        <div className={s.who}>Who I am</div>
+        <div className={s.about}>About Me</div>
+        <div className={s.text}>
           Hi! I’m Kartik Bansal, and I’m a designer & developer who has passion
           for building clean web applications with intuitive functionality. I
           enjoy the process of turning ideas into reality using creative
