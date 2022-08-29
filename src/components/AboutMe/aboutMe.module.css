@@ -6,8 +6,9 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.one {
-  margin-top: 100px;
+.who {
+  margin-top: 220px;
+  /* margin-top: 100px; */
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.08);
   color: #ffb742;
@@ -19,13 +20,17 @@
   padding-top: 3px;
 }
 
-.two {
+.photo {
+  margin-top: 120px;
+}
+
+.about {
   font: 700 48px "Roboto";
   color: white;
   width: 518px;
 }
 
-.three {
+.text {
   margin-top: 40px;
   width: 672px;
   line-height: 2;
