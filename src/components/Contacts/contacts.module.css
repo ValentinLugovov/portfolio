@@ -1,6 +1,48 @@
 .contacts {
-  margin: 1031px auto;
+  margin: 900px auto;
   width: 1440px;
   height: 470px;
-  background-color: rgb(92, 111, 53);
+  background-color: #1c1c1c;
+}
+
+.container {
+  margin-top: 50px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 600px 400px auto;
+}
+
+.box1 {
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.name {
+  color: #ffb742;
+  font: 700 32px "Poppins";
+}
+
+.who {
+  padding-top: 30px;
+  font-weight: semi-bold;
+  color: white;
+  font: 600 16px "Work Sans";
+}
+
+.links {
+  margin-top: 25px;
+
+  color: #7b7b7b;
+  font: 500 18px "Work Sans";
+}
+
+.header {
+  margin-top: 150px;
+
+  color: white;
+  font: 600 22px "Work Sans";
+}
+
+p {
+  padding-top: 10px;
 }
