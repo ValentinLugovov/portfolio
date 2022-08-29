@@ -1,5 +1,4 @@
 .hero {
-  border: 1px solid rgb(48, 116, 73);
   margin-top: 106px;
   width: 964px;
   height: 458.73px;
@@ -9,21 +8,22 @@
   color: white;
 }
 
-.one {
+.name {
+  margin-top: 50px;
   height: 51px;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
 
-.two {
+.who {
   height: 91px;
   font-size: 48px;
   font-weight: bold;
   text-align: center;
 }
 
-.three {
+.phrase {
   height: 51px;
   font-size: 24px;
   font-weight: regular;
@@ -35,6 +35,7 @@ span {
   text-decoration: underline;
 }
 
-.four {
+.photo {
+  margin-top: 70px;
   text-align: center;
 }
