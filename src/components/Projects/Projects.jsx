@@ -1,7 +1,7 @@
 import React from "react";
 import Parallax from "./Parallax/Parallax";
 import s from "./projects.module.css";
-// import Site from "./Site";
+import v1 from "../../video/timer.mov";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./react-tabs.css";
 
@@ -13,7 +13,7 @@ const Projects = (props) => {
       <Tabs>
         <TabList className={s.tabList}>
           <Tab>All</Tab>
-          <Tab>Site For Polisan</Tab>
+          <Tab>Website</Tab>
           <Tab>Count Timer</Tab>
           <Tab>Social App</Tab>
         </TabList>
@@ -22,13 +22,36 @@ const Projects = (props) => {
           <Parallax />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <div>
+            <p>
+              Личная затея с данным проектом для ускорения и улучшения работы
+              сотрудников организации.
+            </p>
+            <p>
+              Поскольку по прежнему сотрудники используют рукописный ввод данных
+              с последующим физическим хранением.
+            </p>
+          </div>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 3</h2>
+          <p>
+            Простой таймер отсчитывающий время, которое осталось до нового года
+          </p>{" "}
+          <br />
+          <div>
+            <video
+              width="900"
+              height="500"
+              controls="controls"
+              src={v1}
+            ></video>
+          </div>
         </TabPanel>
         <TabPanel>
-          <h2>Any content 4</h2>
+          <div>
+            <p>Этот проект разрабатывается в рамках курса с YouTube.</p>
+            <p>Стек используемый в работе: React, Redux.</p>
+          </div>
         </TabPanel>
       </Tabs>
     </div>
