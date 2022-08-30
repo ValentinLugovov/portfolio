@@ -40,5 +40,9 @@
 }
 
 .react-tabs__tab-panel--selected {
+  color: white;
+  font: 700 20px "Poppins";
+  letter-spacing: 1px;
+  text-align: center;
   display: block;
 }
