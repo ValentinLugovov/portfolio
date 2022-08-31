@@ -1,0 +1,35 @@
+.boxes {
+  margin: 25px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.img {
+  width: 450px;
+  height: 400px;
+  border-radius: 40px;
+  border: 1px solid #ffb742;
+}
+
+.box1 {
+  grid-column: span 3;
+}
+.box1 img {
+  width: 700px;
+  height: 400px;
+}
+.box2 {
+  grid-column: span 1;
+}
+.box3 {
+  grid-column: span 1;
+}
+.box4 {
+  grid-column: span 3;
+}
+.box4 img {
+  width: 700px;
+  height: 400px;
+}
