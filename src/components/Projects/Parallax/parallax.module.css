@@ -12,21 +12,6 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
-.mouse-parallax {
-  height: 400px;
-  position: relative;
-  overflow: hidden;
-}
-.mouse-parallax-bg {
-  position: absolute;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 10%;
-  height: 10%;
-  transition: all 1s ease;
-}
-
 .img {
   width: 450px;
   height: 400px;
