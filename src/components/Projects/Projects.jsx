@@ -1,5 +1,5 @@
 import React from "react";
-import Parallax from "./Parallax/Parallax";
+import All from "./All/All";
 import s from "./projects.module.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./react-tabs.css";
@@ -21,7 +21,7 @@ const Projects = (props) => {
         </TabList>
 
         <TabPanel>
-          <Parallax />
+          <All />
         </TabPanel>
         <TabPanel>
           <Website />
