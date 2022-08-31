@@ -10,15 +10,6 @@
     "D D D D   D D A A   A A A A";
 }
 
-.box {
-  grid-area: A;
-  width: 560px;
-  height: 176px;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
 .one {
   grid-area: B;
   margin-top: 200px;
@@ -31,16 +22,6 @@
   width: 98px;
   height: 30px;
   padding-top: 3px;
-}
-
-.miniBox {
-  margin: 5px;
-  width: 80px;
-  height: 80px;
-  background-color: #383e45;
-  border-radius: 15px;
-  text-align: center;
-  padding-top: 15px;
 }
 
 .two {
@@ -56,8 +37,4 @@
   line-height: 2;
   font: regular 16px "Poppins";
   color: #d4d4d4;
-}
-
-.miniBox img {
-  width: 45px;
 }
