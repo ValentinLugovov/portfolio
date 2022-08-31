@@ -1,6 +1,6 @@
 .App {
   background-color: #212529;
-  /* width: 1440px; */
+  min-width: 1440px;
   height: 4800px;
 }
 
@@ -33,4 +33,9 @@ a {
 }
 .to-up:hover {
   transform: scale(1.2) !important;
+}
+
+.sorry {
+  margin: 0 auto;
+  font-size: large;
 }
