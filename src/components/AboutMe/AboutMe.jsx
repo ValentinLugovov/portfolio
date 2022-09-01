@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./aboutMe.module.css";
 import btn from "../Navbar/navbar.module.css";
-import me from "../img/me.png";
+import me from "../img/photo.PNG";
 
 const AboutMe = (props) => {
   return (
