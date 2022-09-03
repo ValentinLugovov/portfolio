@@ -22,11 +22,11 @@ const Contacts = (props) => {
         <div className={s.box3}>
           <p className={s.header}>Social Media</p>
           <div className={s.link}>
-            <a className={s.links} href="https://www.linkedin.com/in/valentin-lugovov/">Linked In</a><br/><br/>
-            <a className={s.links} href="https://www.telegram.me/valentin_lugovov/">Telegram</a><br/><br/>
-            <a className={s.links} href="https://github.com/ValentinLugovov">Git Hub</a><br/><br/>
-            <a className={s.links} href="#s">Mobile</a><br/><br/>
-            <a className={s.links} href="#s">E-Mail</a>
+            <a className={s.links} href="https://www.linkedin.com/in/valentin-lugovov/" target="_blank">Linked In</a><br/><br/>
+            <a className={s.links} href="https://www.telegram.me/valentin_lugovov/" target="_blank">Telegram</a><br/><br/>
+            <a className={s.links} href="https://github.com/ValentinLugovov" target="_blank">Git Hub</a><br/><br/>
+            <a className={s.links} href="#s" target="_blank">Mobile</a><br/><br/>
+            <a className={s.links} href="#s" target="_blank">E-Mail</a>
           </div>
         </div>
         <div className={s.box4}></div>
