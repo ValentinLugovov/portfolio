@@ -57,12 +57,14 @@
   border: none;
   background-color: #ffb742;
   font: 700 18px "Poppins";
-  transition-delay: 1s;
+  transition: all 1s ease;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: #d77b39;
+  transition: all 0.6s ease;
+
 }
 
 .a {
