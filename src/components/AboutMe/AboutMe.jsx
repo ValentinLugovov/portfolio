@@ -23,7 +23,7 @@ const AboutMe = (props) => {
           Тут можно найти другие мои "более стандартные" работы для портфолио.
         </div>
         <div className={s.btn}>
-          <button className={btn.btn}>Hire Me</button>
+          <button className={btn.btn} onClick={() => props.setShow(true)}>Hire Me</button>
         </div>
       </div>
     </div>

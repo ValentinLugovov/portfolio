@@ -35,7 +35,9 @@ const Navbar = (props) => {
           </a>
         </div>
         <div className={s.box7}>
-          <button className={s.btn}>Hire Me</button>
+          <button className={s.btn} onClick={() => props.setShow(true)}>
+            Hire Me
+          </button>
         </div>
       </div>
     </div>

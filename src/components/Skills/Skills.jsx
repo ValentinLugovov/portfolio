@@ -15,7 +15,9 @@ const Skills = (props) => {
       </div>
       <Items />
       <div>
-        <button className={n.btn}>Hire Me</button>
+        <button className={n.btn} onClick={() => props.setShow(true)}>
+          Hire Me
+        </button>
       </div>
     </div>
   );
