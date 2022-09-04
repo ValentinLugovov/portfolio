@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import { useMediaQuery } from "react-responsive";
+import Modal from "./components/Modal/Modal";
+import { useState } from "react";
 
 const App = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -16,6 +18,8 @@ const App = () => {
   const isPortrait = useMediaQuery({ query: "(orientation: portrait)" });
   const isRetina = useMediaQuery({ query: "(min-resolution: 2dppx)" });
 
+  const [show, setShow] = useState(false);
+
   return (
     <div>
       {isDesktopOrLaptop && (
@@ -23,12 +27,13 @@ const App = () => {
           <a href="#top" className="to-up">
             {" "}
           </a>
-          <Navbar />
+          <Navbar setShow={setShow} />
           <Hero />
-          <AboutMe />
-          <Skills />
+          <AboutMe setShow={setShow} />
+          <Skills setShow={setShow} />
           <Projects />
           <Contacts />
+          <Modal show={show} onClose={() => setShow(false)} />
         </div>
       )}
       {isTabletOrMobile && (
@@ -47,6 +52,7 @@ const App = () => {
           <Skills />
           <Projects />
           <Contacts />
+          <Modal show={show} />
         </div>
       )}
     </div>
