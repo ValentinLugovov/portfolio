@@ -1,6 +1,6 @@
 .hero {
   margin-top: 106px;
-  width: 964px;
+  /* width: 964px; */
   height: 458.73px;
   display: block;
   margin: 106px auto;
@@ -38,4 +38,47 @@ span {
 .photo {
   margin-top: 70px;
   text-align: center;
+}
+
+@media (max-width: 979px) {
+  .name {
+    font-size: 18px;
+  }
+  .who {
+    font-size: 28px;
+  }
+  .phrase {
+    font-size: 14px;
+  }
+  .photo {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .name {
+    font-size: 18px;
+  }
+  .who {
+    font-size: 28px;
+  }
+  .phrase {
+    font-size: 14px;
+  }
+  .photo {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .name {
+    font-size: 18px;
+  }
+  .who {
+    font-size: 28px;
+  }
+  .phrase {
+    font-size: 12px;
+  }
+  .photo {
+    margin-top: 10px;
+  }
 }

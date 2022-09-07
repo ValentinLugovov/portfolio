@@ -6,7 +6,7 @@
 
 .nav {
   padding-top: 15px;
-  width: 1342px;
+  /* width: 1342px; */
   height: 66px;
   display: grid;
   margin: 0 auto;
@@ -51,7 +51,7 @@
 }
 
 .btn {
-  width: 121px;
+  width: 100px;
   height: 54px;
   border-radius: 30px;
   border: none;
@@ -64,9 +64,44 @@
 .btn:hover {
   background-color: #d77b39;
   transition: all 0.6s ease;
-
 }
 
 .a {
   color: white;
+}
+
+@media (max-width: 979px) {
+  .nav {
+    gap: 55px;
+  }
+  .box7 {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav {
+    gap: 35px;
+  }
+  .box7,
+  .box1 {
+    grid-column: span 1;
+  }
+}
+@media (max-width: 480px) {
+  .nav {
+    gap: 30px;
+  }
+  .box1,
+  .box2 {
+    display: none;
+  }
+  .box7 {
+    grid-column: span 1;
+  }
+  .btn {
+    width: 70px;
+    height: 34px;
+    font: 700 14px "Poppins";
+  }
 }

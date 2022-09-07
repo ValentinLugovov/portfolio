@@ -46,3 +46,26 @@
   text-align: center;
   display: block;
 }
+@media (max-width: 979px) {
+  .react-tabs__tab-list {
+    margin: 0 0 50px 230px;
+    padding: 10;
+  }
+}
+@media (max-width: 767px) {
+  .react-tabs__tab-list {
+    margin: 0 0 50px 130px;
+    padding: 10;
+  }
+}
+@media (max-width: 480px) {
+  .react-tabs__tab-list {
+    margin: 0 0 20px 20px;
+    padding: 10;
+  }
+  .react-tabs__tab {
+    padding: 10px 10px;
+    margin: 10px;
+    font: 12px "Poppins";
+  }
+}

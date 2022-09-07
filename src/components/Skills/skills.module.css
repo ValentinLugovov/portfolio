@@ -1,6 +1,6 @@
 .skills {
   margin: 135px auto;
-  width: 1339px;
+  /* max-width: 1339px; */
   height: 358.29px;
   display: grid;
   grid-template-areas:
@@ -28,13 +28,45 @@
   grid-area: C;
   font: 700 48px "Roboto";
   color: white;
-  width: 518px;
+  max-width: 818px;
 }
 
 .three {
   grid-area: D;
-  width: 672px;
+  max-width: 618px;
   line-height: 2;
   font: regular 16px "Poppins";
   color: #d4d4d4;
+}
+
+@media (max-width: 979px) {
+  .skills {
+    max-width: 880px;
+  }
+  .btn {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .skills {
+    max-width: 880px;
+  }
+  .btn {
+    display: block;
+  }
+  .one {
+    margin-top: 500px;
+  }
+}
+@media (max-width: 480px) {
+  .two {
+    grid-area: C;
+    font: 700 26px "Roboto";
+    color: white;
+    max-width: 380px;
+  }
+  .three {
+    grid-area: D;
+    max-width: 220px;
+  }
 }

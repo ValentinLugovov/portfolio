@@ -1,7 +1,7 @@
 .projects {
   margin: 137px auto;
-  width: 1234px;
-  height: 1037.5px;
+  /* max-width: 1234px; */
+  /* height: 1037.5px; */
 }
 
 .note {
@@ -20,11 +20,11 @@
 
 .title {
   text-align: center;
-  display: block;
-  margin: 0 auto;
+  /* display: block; */
+  /* margin: 0 auto; */
   font: 700 48px "Roboto";
   color: white;
-  width: 518px;
+  /* width: 518px; */
 }
 
 .header {
@@ -37,7 +37,7 @@
   padding: 10px;
   background-color: #ffb742;
   border-radius: 10px;
-  width: 250px;
+  /* width: 250px; */
   transition: 0.3s;
 }
 video {
@@ -48,4 +48,39 @@ video {
 .link:hover {
   background-color: #ffb742d3;
   transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .note {
+    margin-top: 800px;
+  }
+  video {
+    max-width: 650px;
+  }
+  .link {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  video {
+    max-width: 350px;
+    max-height: 250px;
+  }
+  .link {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .header {
+    font-size: 12px;
+    max-width: 350px;
+    margin-left: 35px;
+  }
 }

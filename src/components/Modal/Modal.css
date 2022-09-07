@@ -21,7 +21,7 @@
 .modalContent {
   border-radius: 30px;
   border: 1px solid #ffb742;
-  width: 500px;
+  /* width: 500px; */
   background-color: #212529;
   transform: translateY(-300px);
   transition: all 0.4s ease-in-out;
@@ -78,5 +78,5 @@
 }
 
 h6 {
-  color: black;
+  color: rgb(255, 255, 255);
 }

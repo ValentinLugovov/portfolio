@@ -1,14 +1,14 @@
 .aboutMe {
   display: grid;
   margin: 392px auto;
-  width: 1342px;
+  /* width: 1342px; */
   height: 596.07px;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .who {
   margin-top: 220px;
-  /* margin-top: 100px; */
+  margin-top: 100px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.08);
   color: #ffb742;
@@ -20,24 +20,23 @@
   padding-top: 3px;
 }
 
-.photo {
+/* .photo {
   margin-top: 120px;
-}
+} */
 
 .me {
-  width: 650px;
+  width: 100%;
 }
-
 
 .about {
   font: 700 48px "Roboto";
   color: white;
-  width: 518px;
+  /* width: 518px; */
 }
 
 .text {
   margin-top: 40px;
-  width: 672px;
+  max-width: 672px;
   line-height: 2;
   font: regular 16px "Poppins";
   color: #d4d4d4;
@@ -45,4 +44,31 @@
 
 .btn {
   margin-top: 80px;
+}
+
+@media (max-width: 979px) {
+  .aboutMe {
+    display: grid;
+    margin: 392px auto;
+    max-width: 880px;
+    height: 596.07px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutMe {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .btn {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .aboutMe {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .btn {
+    display: none;
+  }
 }
