@@ -15,9 +15,18 @@ const Modal = (props) => {
           <h2 className={s.modalTitle}>Hire Me</h2>
         </div>
         <div className="modalBody">
-          E-mail: valentinlugovov@gmail.com
-          <br />
-          Phone Number: +7 921 921 52 41
+          <h4
+            onClick={() =>
+              navigator.clipboard.writeText("valentinlugovov@gmail.com")
+            }
+          >
+            E-mail: valentinlugovov@gmail.com
+          </h4>
+
+          <h4 onClick={() => navigator.clipboard.writeText("79219215241")}>
+            Phone Number: +7 921 921 52 41
+          </h4>
+          <h6>*click on e-mail or number to copy</h6>
         </div>
         <div className="modalFooter">
           <button className="btn" onClick={props.onClose}>
