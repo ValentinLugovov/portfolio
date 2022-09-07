@@ -6,13 +6,15 @@ import me from "../img/photo.PNG";
 const AboutMe = (props) => {
   return (
     <div id="about" className={s.aboutMe}>
-      <div className={s.photo}>
+      <div>
         <img src={me} alt="UserPhoto" className={s.me}></img>
       </div>
-      <div>
-        <div className={s.who}>Who I am</div>
-        <div className={s.about}>About Me</div>
-        <div className={s.text}>
+      <div className={s.contentBox}>
+        <div className="mark">Who I am</div>
+        <div>
+          <h1>About Me</h1>
+        </div>
+        <div className="text">
           Привет! Я начинающий фронтенд разработчик, который находится в начале
           своего пути. Начал я своё знакомство с JavaScript, с книг портала
           code.mu "Основной учебник" и "Высший учебник". Сейчас черпаю
@@ -22,8 +24,10 @@ const AboutMe = (props) => {
           Начинал его на нативном JS, но постепенно перевожу его на React. Также
           Тут можно найти другие мои "более стандартные" работы для портфолио.
         </div>
-        <div className={s.btn}>
-          <button className={btn.btn} onClick={() => props.setShow(true)}>Hire Me</button>
+        <div className={s.btnBox}>
+          <button className={btn.btn} onClick={() => props.setShow(true)}>
+            Hire Me
+          </button>
         </div>
       </div>
     </div>

@@ -10,8 +10,12 @@ import Website from "./Website/Website";
 const Projects = (props) => {
   return (
     <div id="project" className={s.projects}>
-      <div className={s.note}>My Works</div>
-      <div className={s.title}>Featured Works</div>
+      <div className={s.note}>
+        <p className="mark">My Works</p>
+      </div>
+      <div className={s.title}>
+        <h1>Featured Works</h1>
+      </div>
       <Tabs>
         <TabList className={s.tabList}>
           <Tab>All</Tab>

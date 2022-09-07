@@ -6,15 +6,19 @@ import Items from "./Items/Items";
 const Skills = (props) => {
   return (
     <div id="skills" className={s.skills}>
-      <div className={s.one}>My Skills</div>
-      <div className={s.two}>What My Programming Skills Included?</div>
+      <div className="mark">My Skills</div>
+      <div className={s.headerBox}>
+        <h1 className={s.header}>What My Programming Skills Included?</h1>
+      </div>
 
-      <div className={s.three}>
-        Активно потребляю новую информацию по данным технологиям + изучаю новые
-        библиотеки
+      <div className={s.boxText}>
+        <p className="text">
+          Активно потребляю новую информацию по данным технологиям + изучаю
+          новые библиотеки
+        </p>
       </div>
       <Items />
-      <div>
+      <div className={s.button}>
         <button className={n.btn} onClick={() => props.setShow(true)}>
           Hire Me
         </button>

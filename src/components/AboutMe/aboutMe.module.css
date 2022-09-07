@@ -1,58 +1,27 @@
 .aboutMe {
   display: grid;
-  margin: 392px auto;
-  /* width: 1342px; */
-  height: 596.07px;
+  margin-top: 200px;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.who {
-  margin-top: 220px;
-  margin-top: 100px;
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.08);
-  color: #ffb742;
-  font: 600 15px "Poppins";
-  text-align: center;
-  text-transform: uppercase;
-  width: 98px;
-  height: 30px;
-  padding-top: 3px;
-}
-
-/* .photo {
-  margin-top: 120px;
-} */
 
 .me {
   width: 100%;
 }
 
-.about {
-  font: 700 48px "Roboto";
-  color: white;
-  /* width: 518px; */
+.contentBox {
+  margin-top: 120px;
 }
 
-.text {
-  margin-top: 40px;
-  max-width: 672px;
-  line-height: 2;
-  font: regular 16px "Poppins";
-  color: #d4d4d4;
-}
-
-.btn {
+.btnBox {
   margin-top: 80px;
 }
 
 @media (max-width: 979px) {
   .aboutMe {
-    display: grid;
-    margin: 392px auto;
-    max-width: 880px;
-    height: 596.07px;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .contentBox {
+    margin-top: 50px;
   }
 }
 
@@ -60,7 +29,7 @@
   .aboutMe {
     grid-template-columns: repeat(1, 1fr);
   }
-  .btn {
+  .btnBox {
     margin-top: 40px;
   }
 }
@@ -68,7 +37,7 @@
   .aboutMe {
     grid-template-columns: repeat(1, 1fr);
   }
-  .btn {
+  .btnBox {
     display: none;
   }
 }

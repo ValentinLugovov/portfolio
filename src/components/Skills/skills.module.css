@@ -1,71 +1,36 @@
 .skills {
-  margin: 135px auto;
-  /* max-width: 1339px; */
-  height: 358.29px;
+  margin-top: 300px;
   display: grid;
   grid-template-areas:
     "B B B B   B B B B   B B B B"
     "C C C C   C C C C   C C C C"
     "D D D D   D D A A   A A A A"
-    "D D D D   D D A A   A A A A";
+    "H H H H   H H H H   H H H H";
 }
 
-.one {
-  grid-area: B;
-  margin-top: 200px;
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.08);
-  color: #ffb742;
-  font: 600 15px "Poppins";
-  text-align: center;
-  text-transform: uppercase;
-  width: 98px;
-  height: 30px;
-  padding-top: 3px;
-}
-
-.two {
-  grid-area: C;
-  font: 700 48px "Roboto";
-  color: white;
-  max-width: 818px;
-}
-
-.three {
+.boxText {
   grid-area: D;
-  max-width: 618px;
-  line-height: 2;
-  font: regular 16px "Poppins";
-  color: #d4d4d4;
+}
+
+.button {
+  grid-area: H;
+}
+.headerBox {
+  grid-area: C;
 }
 
 @media (max-width: 979px) {
-  .skills {
-    max-width: 880px;
-  }
-  .btn {
-    display: block;
-  }
 }
 @media (max-width: 767px) {
-  .skills {
-    max-width: 880px;
-  }
-  .btn {
-    display: block;
-  }
-  .one {
-    margin-top: 500px;
-  }
 }
 @media (max-width: 480px) {
-  .two {
+  .headerBox {
     grid-area: C;
-    font: 700 26px "Roboto";
-    color: white;
-    max-width: 380px;
   }
-  .three {
+  .header {
+    font-size: 26px;
+  }
+  .boxText {
     grid-area: D;
     max-width: 220px;
   }

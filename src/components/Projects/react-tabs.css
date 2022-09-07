@@ -26,11 +26,6 @@
   border-radius: 5px;
 }
 
-.react-tabs__tab--disabled {
-  color: GrayText;
-  cursor: default;
-}
-
 .react-tabs__tab:focus {
   outline: none;
 }

@@ -1,7 +1,7 @@
 .boxes {
-  margin: 25px;
+  max-width: 1200px;
   display: grid;
-  gap: 30px;
+  gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
@@ -13,43 +13,27 @@
   border: 1px solid #ffb742;
 }
 
-.box1 {
-  grid-column: span 3;
-}
-.box1 img {
-  width: 700px;
-  height: 400px;
-}
-.box2 {
-  grid-column: span 1;
-}
-.box3 {
-  grid-column: span 1;
-}
+.box1,
 .box4 {
   grid-column: span 3;
 }
+.box1 img,
 .box4 img {
   width: 700px;
   height: 400px;
 }
+.box2,
+.box3 {
+  grid-column: span 1;
+}
 
 @media (max-width: 979px) {
   .boxes {
-    /* margin-left: 150px; */
-    max-width: 700px;
+    max-width: 970px;
     gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-  }
-  .img {
-    width: 450px;
-    height: 400px;
-  }
-  .box4 img,
-  .box1 img {
-    width: 920px;
-    height: 500px;
+    justify-content: center;
   }
   .img {
     width: 420px;
@@ -73,9 +57,6 @@
     height: 450px;
   }
   .boxes {
-    /* margin-left: 150px; */
-    max-width: 700px;
-    gap: 10px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
@@ -90,26 +71,12 @@
 
 @media (max-width: 480px) {
   .img {
-    width: 350px;
+    width: 400px;
     height: 250px;
   }
   .box4 img,
   .box1 img {
-    width: 350px;
+    width: 400px;
     height: 250px;
-  }
-  .boxes {
-    /* margin-left: 150px; */
-    max-width: 700px;
-    gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    grid-row: span 1;
-    grid-column: span 1;
   }
 }

@@ -1,19 +1,5 @@
-.skills {
-  margin: 135px auto;
-  /* width: 1339px; */
-  height: 358.29px;
-  display: grid;
-  grid-template-areas:
-    "B B B B   B B B B   B B B B"
-    "C C C C   C C C C   C C C C"
-    "D D D D   D D A A   A A A A"
-    "D D D D   D D A A   A A A A";
-}
-
 .box {
   grid-area: A;
-  /* width: 560px; */
-  height: 176px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -35,10 +21,6 @@
 
 @media (max-width: 767px) {
   .box {
-    grid-area: A;
-    /* width: 560px; */
-    height: 176px;
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
   .miniBox {
@@ -54,9 +36,6 @@
 @media (max-width: 480px) {
   .box {
     grid-area: A;
-    /* width: 560px; */
-    height: 176px;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
   .miniBox {
