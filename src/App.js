@@ -1,8 +1,11 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe/AboutMe";
+import AboutMeMobile from "./components/AboutMeMobile/AboutMeMobile";
 import Contacts from "./components/Contacts/Contacts";
 import Hero from "./components/Hero/Hero";
+import HeroMobile from "./components/HeroMobile/HeroMobile";
 import Navbar from "./components/Navbar/Navbar";
+import NavbarMobile from "./components/NavbarMobile/NavbarMobile";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import { useMediaQuery } from "react-responsive";
@@ -46,10 +49,10 @@ const App = () => {
           <a href="#top" className="to-up">
             {" "}
           </a>
-          <Navbar />
-          <Hero />
-          <AboutMe />
-          <Skills />
+          <NavbarMobile setShow={setShow}/>
+          <HeroMobile />
+          <AboutMeMobile setShow={setShow}/>
+          <Skills setShow={setShow}/>
           <Projects />
           <Contacts />
           <Modal show={show} />
