@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  padding-top: 15px;
+  width: 500px;
+  height: 66px;
+  display: grid;
+  text-align: center;
+
+  /*Фиксирует навбар при скролле*/
+  position: sticky;
+  top: 0;
+
+  grid-template-columns: repeat(5, 75px);
+  align-items: center;
+  font: 600 12px "Poppins";
+}
+
+.btn {
+  width: 60px;
+  height: 24px;
+  border-radius: 15px;
+  border: none;
+  background-color: #ffb742;
+  font: 700 9px "Poppins";
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d77b39;
+  transition: all 0.6s ease;
+}
+
+.a {
+  color: white;
+}
