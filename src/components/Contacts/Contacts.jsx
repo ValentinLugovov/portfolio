@@ -11,7 +11,7 @@ const Contacts = (props) => {
         </div>
         <div className={s.box2}>
           <p className={s.header}>Useful Links</p>
-          <div className={s.link}>
+          <div className={s.link1}>
             <a className={s.links} href="#top">Home</a><br/><br/>
             <a className={s.links} href="#about">About</a><br/><br/>
             <a className={s.links} href="#skills">Skills</a><br/><br/>
@@ -21,7 +21,7 @@ const Contacts = (props) => {
         </div>
         <div className={s.box3}>
           <p className={s.header}>Social Media</p>
-          <div className={s.link}>
+          <div className={s.link2}>
             <a className={s.links} href="https://www.linkedin.com/in/valentin-lugovov/" target="_blank">Linked In</a><br/><br/>
             <a className={s.links} href="https://www.telegram.me/valentin_lugovov/" target="_blank">Telegram</a><br/><br/>
             <a className={s.links} href="https://github.com/ValentinLugovov" target="_blank">Git Hub</a><br/><br/>
