@@ -80,3 +80,17 @@
     height: 250px;
   }
 }
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px) { 
+      .img {
+        width: 320px;
+        height: 200px;
+      }
+      .box4 img,
+      .box1 img {
+        width: 320px;
+        height: 200px;
+      }
+    }

@@ -67,3 +67,13 @@ video {
     margin-left: 35px;
   }
 }
+
+@media only screen and (device-width: 390px) and (device-height: 844px) {
+  video {
+    max-width: 320px;
+    max-height: 220px;
+  }
+  .header {
+    margin-left: 10px;
+  }
+}

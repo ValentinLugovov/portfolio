@@ -41,3 +41,12 @@
     display: none;
   }
 }
+
+@media only screen and (device-width: 390px) and (device-height: 844px) {
+  .aboutMe {
+    margin-top: 210px;
+  }
+  .contentBox {
+    margin-left: 5px;
+  }
+}

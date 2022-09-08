@@ -64,3 +64,13 @@
     font: 12px "Poppins";
   }
 }
+
+@media only screen and (device-width: 390px) and (device-height: 844px) {
+  .react-tabs__tab-list {
+    margin: 0 0 10px 0px;
+  }
+  .react-tabs__tab {
+    padding: 5px 5px;
+    margin: 10px;
+  }
+}

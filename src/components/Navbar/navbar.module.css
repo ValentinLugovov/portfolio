@@ -6,7 +6,6 @@
 
 .nav {
   padding-top: 15px;
-  /* width: 1342px; */
   height: 66px;
   display: grid;
   margin: 0 auto;
@@ -105,3 +104,13 @@
     font: 700 14px "Poppins";
   }
 }
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px) {
+      .nav {
+        gap: 13px;
+        font-size: 15px;
+        margin-left: 5px;
+      }
+     }

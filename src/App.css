@@ -38,6 +38,8 @@ h1 {
   line-height: 2;
   font: regular 16px "Poppins";
   color: #d4d4d4;
+  text-align: justify;
+  padding: 5px;
 }
 
 html {

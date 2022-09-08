@@ -82,3 +82,11 @@ span {
     margin-top: 10px;
   }
 }
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px) {
+      .phrase {
+        font-size: 11px;
+      }
+     }
