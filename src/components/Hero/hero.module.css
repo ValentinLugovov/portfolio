@@ -40,6 +40,10 @@ span {
   text-align: center;
 }
 
+.photo img {
+  width: 300px;
+}
+
 @media (max-width: 979px) {
   .name {
     font-size: 18px;
@@ -52,6 +56,9 @@ span {
   }
   .photo {
     margin-top: 40px;
+  }
+  .photo img {
+    width: 250px;
   }
 }
 @media (max-width: 767px) {
@@ -67,6 +74,9 @@ span {
   .photo {
     margin-top: 40px;
   }
+  .photo img {
+    width: 200px;
+  }
 }
 @media (max-width: 480px) {
   .name {
@@ -80,6 +90,9 @@ span {
   }
   .photo {
     margin-top: 10px;
+  }
+  .photo img {
+    width: 150px;
   }
 }
 
