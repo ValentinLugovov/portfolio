@@ -1,8 +1,9 @@
 {
   "name": "portfolio",
-  "engines": { 
-   "node": "18.9.0" 
- } ,
+  "engines": {
+    "node": "v16.16.0",
+    "npm": "8.11.0"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
